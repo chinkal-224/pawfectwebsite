@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Donate - Animal Charity Organization</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body class="donate">
+  <header>
+    <h1>PAWfect</h1>
+    <nav role="navigation" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mission.html">Mission</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="donate.html" aria-current="page">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main role="main">
+    <section>
+      <h2>Ways to Donate</h2>
+      <form id="donationForm" aria-label="Donation form">
+        Donation Details
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="amount">Donation Amount ($):</label>
+        <input type="number" id="amount" name="amount" min="1" required />
+        <button type="submit">Donate</button>
+      </form>
+      <h3>Donation Methods</h3>
+      <ul>
+        <li>Online via credit/debit card</li>
+        <li>Bank transfer</li>
+        <li>Check or cash at our office</li>
+      </ul>
+      
+    </section>
+  </main>
+  <footer role="contentinfo">
+    <p>&copy; 2024 Animal Charity Organization. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
